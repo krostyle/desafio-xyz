@@ -1,0 +1,12 @@
+{
+    "name": "empresa-xyz-classes",
+    "version": "1.0.0",
+    "description": "Desafio 2",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Diego Bustamante",
+    "license": "ISC"
+}
