@@ -12,7 +12,7 @@ export class Cliente {
         this._nombre = nombre;
     }
 
-    calcularImpuesto() {
-        return (this._impuesto.monto_bruto_total - this._impuesto.deducciones) * 21 / 100;
+    calcularImpuesto(){
+        return ((this._impuesto.monto_bruto_anual-this._impuesto.deducciones)*21/100)
     }
 }
